@@ -15,7 +15,7 @@ local orglendar = { files = {},
                     text_color = theme.fg_normal or "#FFFFFF",
                     today_color = theme.fg_focus or "#00FF00",
                     event_color = theme.fg_urgent or "#FF0000",
-                    font = theme.font or 'monospace 8',
+                    font = 'monospace 12' or theme.font,
                     parse_on_show = true,
                     limit_todo_length = nil,
                     date_format = "%d-%m-%Y" }
